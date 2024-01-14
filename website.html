@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content=""width=device-width, initial=-scale=1.0"/>
+        <title>Harry Styles</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+        <link rel="icon" type="image/png" href="loll.png">
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Harry Styles</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#video">Top Trending MV</a></li>
+                    <li><a href="#albums">Albums</a></li>
+                    <li><a href="#shop">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Harry Styles</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#video" onclick="toggleMenu()">Top Trending MV</a></li>
+                    <li><a href="#albums" onclick="toggleMenu()">Albums & Songs</a></li>
+                    <li><a href="#socialmed" onclick="toggleMenu()">Social Media</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section_pic-container">
+                <img src="hehehe.png" alt="Harry Styles PNG">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hey, it's me</p>
+                <h1 class="title">Harry Styles</h1>
+                <p class="section__text__p2">Pop Singer</p>
+                <div classes="btn-container">
+                    <button
+                    class="btn btn-color-2"
+                    onclick="window.open('https://www.hstyles.co.uk/')">
+                    Visit Official Site
+                </button>
+                </div>
+            <div id="socials-container">
+                <img
+                src="spotify.png"
+                alt="Spotify" 
+                class="icon"
+                onclick="location.href='https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3?si=fHbMNZcETueYUHNTqxzaDQ'"/>
+                <img
+                src="yt.png"
+                alt="Youtube" 
+                class="icon"
+                onclick="location.href='https://www.youtube.com/channel/UCZFWPqqPkFlNwIxcpsLOwew'"/>
+            </div>
+        </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">All About</p>
+            <h1 class="title">Harry Styles</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img
+                    src="hey.jpg"
+                    alt="profile"
+                    class="about-pic"/>
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img
+                            src="signature.png"
+                            alt="harry's signature"
+                            class="icon"/>
+                            <h3>Years Active</h3>
+                            <p>2010-Present <br />English Singer</p>
+                        </div>
+                        <div class="details-container">
+                            <img
+                            src="occ.png"
+                            alt="occupation"
+                            class="icon"/>
+                            <h3>Occupations</h3>
+                            <p>Song Writer <br />Actor</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>Harry Styles (born February 1, 1994, Redditch, Worcestershire, England) British singer,
+                            songwriter, and actor, one of the original members of the boy band One Direction and a highly
+                            successful solo artist known for his multiple chart-topping singles and albums. Styles became a
+                            member of One Direction in 2010, when the group came together to compete on the British music
+                            competition television show The X Factor. He later embarked on a career as a solo artist and actor,
+                            with forays into fashion.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="video">
+            <p class="section__text__p1">Watch Harry's Most Popular Song</p>
+            <h1 class="title">Sign of the Times</h1>
+            <div class="video-details-container">
+                        <div class="responsive-iframe">
+                            <video width="530" height="285" controls>
+                                <source src="SOTT.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+            </div>
+        </section>
+        <section id="albums">
+            <p class="section__text__p1">Listen & Watch for more</p>
+            <h1 class="title">Albums and Tracks</h1>
+            <div class="albums-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="al3.jpg"
+                            alt="Harry Styles"
+                            class="albums-img">
+                        </div>
+                            <h2 class="albums-sub-title albums-title">Harry Styles</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 albums-btn"
+                            onclick="location.href='https://open.spotify.com/album/1FZKIm3JVDCxTchXDo5jOV?si=1BFfVnUQQo62Hr0d9vPwOQ'">
+                            Spotify
+                            </button>
+                            <button class="btn btn-color-2 albums-btn"
+                            onclick="location.href='https://youtube.com/playlist?list=OLAK5uy_k684NFAsh5fX2ksemLQoP4Uy8IEc_PThg&feature=shared'">
+                            Youtube
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="al2.jpg"
+                            alt="Fine Line"
+                            class="albums-img">
+                        </div>
+                            <h2 class="albums-sub-title albums-title">Fine Line</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 albums-btn"
+                            onclick="location.href='https://open.spotify.com/album/7xV2TzoaVc0ycW7fwBwAml?si=7xJOnkphSI2XEXhWNs23Ag'">
+                            Spotify
+                            </button>
+                            <button class="btn btn-color-2 albums-btn"
+                            onclick="location.href='https://youtube.com/playlist?list=OLAK5uy_l-oeXy89ZqIF0Dw3adjIVcpTKpj_diYNY&feature=shared'">
+                            Youtube
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="al1.jpg"
+                            alt="Harry's House"
+                            class="albums-img">
+                        </div>
+                            <h2 class="albums-sub-title albums-title">Harry's House</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 albums-btn"
+                            onclick="location.href='https://open.spotify.com/album/5r36AJ6VOJtp00oxSkBZ5h?si=c7V5xcN7Q26NGTt3eHwIiw'">
+                            Spotify
+                            </button>
+                            <button class="btn btn-color-2 albums-btn"
+                            onclick="location.href='https://youtube.com/playlist?list=OLAK5uy_mlz0XdHjgFO8gVxdQD94aCHsEfpUlgJJ0&feature=shared'">
+                            Youtube
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="shop">
+            <p class="section__text__p1">if you want to purchase merchandises</p>
+            <h1 class="title">CONTACT HERE</h1>
+            <div class="shop-info-upper-container">
+                <div class="shop-info-container">
+                    <img src="email.png" 
+                    alt="email icon"
+                    class="icon shop-icon"/>
+                <p><a href="mailto:styleshop@gmail.com">shopforstyles@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#video">Top Trending MV</a></li>
+                        <li><a href="#albums">Albums</a></li>
+                        <li><a href="#shop">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2024 Jireh Gem D. Martinez. All Rights Reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
